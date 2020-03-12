@@ -1,0 +1,25 @@
+{
+  "name": "lpapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devstart": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "git": "^0.1.5",
+    "mongodb": "^3.5.4",
+    "mongoose": "^5.9.3"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mums12/LetsPlay.git"
+  }
+}

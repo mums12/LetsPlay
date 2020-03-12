@@ -1,0 +1,29 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/5e62bd3f876f440ed8f41769
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Cool Guy",
+    "childAge": 6,
+    "zipcode": 20010
+}
+
+###
+
+DELETE http://localhost:3000/users/5e62bbcbf465082c647b3c29
+
+###
+
+PATCH http://localhost:3000/users/5e62c223a9a60c1808c3b483
+Content-Type: application/json
+
+{
+    "name": "Updated User"
+}
